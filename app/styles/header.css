@@ -1,0 +1,7 @@
+
+.nav_menu_toggle{
+    @apply w-8 cursor-pointer flex-col gap-y-1 flex;
+}
+#more_user_detail[open] .arrow_rotate{
+    transform: rotate(90deg);
+}
